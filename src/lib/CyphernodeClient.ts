@@ -2,6 +2,7 @@ import logger from "./logger";
 import crypto from "crypto";
 import axios, { AxiosRequestConfig } from "axios";
 import https from "https";
+import http from "http";
 import path from "path";
 import fs from "fs";
 import BatcherConfig from "../config/BatcherConfig";
